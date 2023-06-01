@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project img {
+  display: block;
+  margin: 0 auto;
+}
+
+.project h3, .project p {
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.about-content img {
+  max-width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.about-text {
+  flex: 1;
+}
